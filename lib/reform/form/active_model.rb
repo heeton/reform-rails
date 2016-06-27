@@ -17,7 +17,6 @@ module Reform::Form::ActiveModel
     end
   end
 
-
   module ClassMethods
     # this module is only meant to extend (not include). # DISCUSS: is this a sustainable concept?
     def self.extended(base)
